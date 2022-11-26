@@ -1,0 +1,366 @@
+.darkmode-icon {
+  cursor: pointer;
+  position: sticky;
+  top: 5%;
+  left: 95%;
+  height: 40px;
+  width: 40px;
+}
+.darkmode {
+  height: 40px;
+  width: 40px;
+}
+.night {
+  scroll-behavior: smooth;
+  .landing-navbar {
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0px 3px 7px 0px rgba(255, 255, 255, 0.5);
+    height: 10%;
+    width: 100%;
+    .darkmode-icon {
+      margin: 0;
+      position: relative;
+      top: 35%;
+      left: 57%;
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      display: inline-block;
+    }
+    .landing-navbar-items {
+      font-size: 16px;
+      margin: 5px;
+      padding: 10px;
+      position: relative;
+      top: 50%;
+      right: 40%;
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      color: #c0c0c0;
+      display: inline-block;
+    }
+    .landing-navbar-items:hover {
+      cursor: pointer;
+      background-color: #c0c0c01e;
+      box-shadow: 0px 0px 10px 5px rgba(255, 255, 255, 0.5);
+    }
+  }
+
+  .header {
+    background-color: rgba(0, 0, 0, 0.888);
+    box-shadow: 0px 0px 10px 3px rgba(255, 255, 255, 0.5);
+    height: 8%;
+    width: 100%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  @keyframes glowN {
+    from {
+    }
+
+    to {
+      text-shadow: 0 3px 7px #a0a0a0, 0 5px 10px #5b5a5f, 0 5px 10px #444347;
+    }
+  }
+  .header-title {
+    font-weight: bolder;
+    font-style: italic;
+    font-variant: normal;
+    font-size: 40px;
+    color: black;
+    animation: glowN 1.5s ease-in-out infinite alternate;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .particles-js {
+    background-color: #000000;
+  }
+  .landing-start-button {
+    font-size: 25px;
+    width: 100px;
+    color: #c0c0c0;
+    text-align: center;
+    box-shadow: 0px 3px 10px 0px rgba(255, 255, 255, 0.5);
+    border: none;
+    background-color: rgba(0, 0, 0, 0.888);
+    margin: 0;
+    position: absolute;
+    top: 92%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .team-div {
+    background-color: black;
+    height: auto;
+    width: 100%;
+    .team-names {
+      font-size: 15px;
+      color: #c0c0c0;
+      text-align: center;
+      margin: 10px;
+      width: 7%;
+      height: 7%;
+      display: inline-block;
+    }
+    .team-info {
+      font-size: 10px;
+      color: #c0c0c0;
+      text-align: center;
+      margin-top: 0;
+      margin-left: 12px;
+      margin-right: 12px;
+      margin-bottom: 15px;
+      width: 7%;
+      height: 7%;
+      display: inline-block;
+    }
+    .team-title {
+      font-size: 20px;
+      padding: 10px;
+      color: #c0c0c0;
+      text-align: center;
+      box-shadow: 0px 3px 10px 0px rgba(255, 255, 255, 0.5);
+    }
+    .team-avatars {
+      margin: 10px;
+      width: 7%;
+      height: 7%;
+      display: inline-block;
+    }
+    .team-email {
+      font-size: 15px;
+      color: #c0c0c0;
+      text-align: center;
+      margin: 15px;
+      display: inline-block;
+    }
+    .team-rights {
+      font-size: 10px;
+      color: #c0c0c0;
+      text-align: center;
+      margin-top: 15px;
+      margin-bottom: 50px;
+      display: inline-block;
+    }
+  }
+  .features {
+    background-color: black;
+    height: auto;
+    width: 100%;
+    .features-main-title {
+      font-size: 20px;
+      padding: 10px;
+      color: #c0c0c0;
+      text-align: center;
+      box-shadow: 0px 3px 10px 0px rgba(255, 255, 255, 0.5);
+    }
+    .features-text-divs {
+      width: 40%;
+      padding: 20px;
+      margin-bottom: 10px;
+      background-color: black;
+      display: inline-block;
+      .features-titles {
+        display: inline-block;
+        font-size: 17px;
+        font-weight: bold;
+        color: #cccccc;
+        text-align: left;
+      }
+      .features-texts {
+        padding: 10px;
+        display: inline-block;
+        font-size: 15px;
+        color: #c0c0c0;
+        text-align: left;
+      }
+    }
+  }
+}
+.day {
+  scroll-behavior: smooth;
+  .landing-navbar {
+    position: absolute;
+    background-color: whitesmoke;
+    box-shadow: 0px 3px 7px 0px #44469ccb;
+    height: 10%;
+    width: 100%;
+    .darkmode-icon {
+      margin: 0;
+      position: relative;
+      top: 35%;
+      left: 57%;
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      display: inline-block;
+    }
+    .landing-navbar-items {
+      font-size: 16px;
+      margin: 5px;
+      padding: 10px;
+      position: relative;
+      top: 50%;
+      right: 40%;
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      color: black;
+      display: inline-block;
+    }
+    .landing-navbar-items:hover {
+      cursor: pointer;
+      background-color: #44469c38;
+      box-shadow: 0px 0px 10px 5px #44469c7e;
+    }
+  }
+
+  .header {
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 10px 3px #44469ccb;
+    height: 8%;
+    width: 100%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  @keyframes glowD {
+    from {
+    }
+
+    to {
+      text-shadow: 0 3px 7px #44469c2f, 0 5px 10px #44469ccb, 0 5px 10px #3d3f8bf6, 0 5px 10px #44469cf6;
+    }
+  }
+  .header-title {
+    font-weight: bolder;
+    font-style: italic;
+    font-variant: normal;
+    font-size: 40px;
+    color: whitesmoke;
+    animation: glowD 1.5s ease-in-out infinite alternate;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .particles-js {
+    background-color: whitesmoke;
+  }
+  .landing-start-button {
+    font-size: 25px;
+    width: 100px;
+    color: black;
+    text-align: center;
+    box-shadow: 0px 7px 10px 0px #44469cf6;
+    border: none;
+    background-color: #44469c54;
+    margin: 0;
+    position: absolute;
+    top: 92%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .team-div {
+    background-color: whitesmoke;
+    height: auto;
+    width: 100%;
+    .team-names {
+      font-size: 15px;
+      color: black;
+      text-align: center;
+      margin: 10px;
+      width: 7%;
+      height: 7%;
+      display: inline-block;
+    }
+    .team-info {
+      font-size: 10px;
+      color: black;
+      text-align: center;
+      margin-top: 0;
+      margin-left: 12px;
+      margin-right: 12px;
+      margin-bottom: 15px;
+      width: 7%;
+      height: 7%;
+      display: inline-block;
+    }
+    .team-title {
+      font-size: 20px;
+      padding: 10px;
+      color: black;
+      text-align: center;
+      box-shadow: 0px 3px 10px 0px #44469ccb;
+    }
+    .team-avatars {
+      margin: 10px;
+      width: 7%;
+      height: 7%;
+      display: inline-block;
+    }
+    .team-email {
+      font-size: 15px;
+      color: black;
+      text-align: center;
+      margin: 15px;
+      display: inline-block;
+    }
+    .team-rights {
+      font-size: 10px;
+      color: black;
+      text-align: center;
+      margin-top: 15px;
+      margin-bottom: 50px;
+      display: inline-block;
+    }
+  }
+  .features {
+    margin-top: -30px;
+    background-color: whitesmoke;
+    height: auto;
+    width: 100%;
+    .features-main-title {
+      font-size: 20px;
+      padding-top: 30px;
+      padding-bottom: 10px;
+      color: black;
+      text-align: center;
+      box-shadow: 0px 10px 10px 0px #44469c70;
+    }
+    .features-text-divs {
+      width: 40%;
+      padding: 20px;
+      margin-bottom: 10px;
+      background-color: whitesmoke;
+      display: inline-block;
+      .features-titles {
+        display: inline-block;
+        font-size: 17px;
+        font-weight: bold;
+        color: black;
+        text-align: left;
+      }
+      .features-texts {
+        padding: 10px;
+        display: inline-block;
+        font-size: 15px;
+        color: #222222;
+        text-align: left;
+      }
+    }
+  }
+}

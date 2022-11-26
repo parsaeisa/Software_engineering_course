@@ -1,0 +1,328 @@
+.toolbar{
+	align-items: left	;
+	position: static;
+	// margin : 0px !important ;
+}
+.accordeonRoot {
+	width: 99%;
+}
+
+@media only screen and (max-width: 600px) {
+	.MuiAccordion-root{
+		margin-left : 0px !important ;
+		padding-left : 16px ;
+		
+	}
+
+	.MuiToolbar-root{
+		padding-left : 0px !important;
+	}
+
+	.TabsBox{
+		padding : 0px ;
+	}
+
+	.SearchBar{
+		position : relative !important ;
+	}
+}
+
+.MuiPaper-root{
+	padding-left: 0px !important;
+}
+
+
+// .Mui-expanded{
+// 	margin-left: 0px !important;
+// }
+
+.SearchBar{
+	position : absolute ;
+}
+// .MuiAccordion-root{
+// 	margin-left : 57px  ;
+// 	padding-left : 16px ;
+// }
+.searchIcon{
+	height : 2px !important;
+	width : 2px !important;
+}
+.MuiToolbar-root{
+	padding-left : 57px ;
+	padding-right : 0px !important ;
+}
+.searchFormPaper {
+	// padding-left: 30px;
+	// padding-right: 10px;	
+	width: 76%;
+	height: 44px !important;	
+	margin-left: 0px!important ;	
+	border-radius: 8px !important;
+	border: 1px solid;
+	box-shadow: none !important;
+	z-index: 30;
+}
+.appBarSpacer {
+	height: 800px ;
+}
+.day{
+	// background-image: url("./bigdatalightblur2.png");	
+    // background-repeat: no-repeat;
+    // background-size: cover;
+	.ex {
+		align-items: center;
+		padding-left: 40%;
+	}
+	.MuiCheckbox-colorSecondary.Mui-checked{
+		color : #44469c ;
+	}
+	.explore {
+		align-items: center;
+		display: flex !important;
+		position: relative;
+		justify-content: center;
+		flex-direction: column;
+		text-align: left;
+	}	
+	.ImageAPI{
+		height: 600px;
+		overflow-y: auto;
+	}
+	.MuiDialog-paperWidthSm {
+		max-width: 400px;
+		width: 250px !important;
+		text-align: center;
+	}
+	.view-page-button{
+		background-color: rgba(255, 255, 255, 0.65);
+		box-shadow: 0px 3px 7px 0px ;//rgba(255, 255, 255, 0.5);
+		color:  rgba(68, 68, 68, 0.55);	
+	}
+	.view-page-button:hover{
+		background-color: rgba(68, 68, 68, 0.55);
+	}
+	.card {
+		background-color: rgba(255, 255, 255, 0.65);
+		position: relative;
+		margin: 0 auto;
+		float: none;
+		margin-bottom: 10px;
+		img {
+			align-items: center;
+			width: 95%;
+			padding-top: 5%;
+			padding-right: 5%;
+			padding-bottom: 5%;
+			border-top-right-radius: 0;
+			border-bottom-left-radius: calc(0.25rem - 1px);
+			object-fit: cover;
+			animation-name: fade-img;
+			animation-duration: 2s;
+			-webkit-transform: scaleX(-1);
+			transform: scaleX(-1);
+		}
+	}
+	.card-body {
+		padding: 0.5em 1.2em;
+	}
+	.card-title {
+		padding-top: 3%;
+		font-weight: bold;
+	}
+	.img {
+		&:hover {
+			-webkit-transform: scaleX(-1);
+			transform: scaleX(-1);
+			-webkit-transform: scaleX(-1);
+			transform: scaleX(-1);
+		}
+	}
+	.fade-img {
+		animation-name: fade-img;
+		animation-duration: 2s;
+	}
+	a {
+		&:link {
+			text-decoration: none;
+		}
+	}
+	.horizontal-card {
+		position: relative;
+		display: flex;
+		border: 1px solid rgb(0, 0, 0);
+		margin-bottom: 1rem;
+	}
+	img {
+		width: 200px;
+		height: 200px;
+	}
+	.card-horizontal {
+		display: flex;
+		flex: 1 1 auto;
+	}
+	.horizontal-card-body {
+		display: flex;
+		flex-direction: column;
+		margin-left: 1rem;		
+	}
+	.horizontal-card-footer {
+		left: 0px;
+		right: 0px;
+		margin-bottom: 10px;
+		display: flex;
+		align-items: center;
+	}
+	.text-muted {
+		color: black;
+	}
+	
+}
+.night{
+// <<<<<<< HEAD
+	.accordion{
+		background-color: #424242;
+		color: white !important;
+	}
+	.toolbar{
+		background-color: #424242;
+		border-bottom: 2px solid;
+		border-color: #6381B5;
+		// background:  rgba(0, 0, 0, 0.32) !important ;
+	}	
+	.searchFormPaper{
+		background-color: #424242;
+		border-bottom: 2px solid;
+		border-color: #6381B5;		
+		color : white !important ;
+	}
+// =======
+// 	background-image: url("./bigdatadarkblur2.png");
+//     background-repeat: no-repeat;
+//     background-size: cover;
+// >>>>>>> ed5da9065e5249dd79220d5b8eb52db8dec4c86a
+	.ex {
+		align-items: center;
+		padding-left: 40%;
+	}
+	.explore {
+		align-items: center;
+		display: flex !important;
+		position: relative;
+		justify-content: center;
+		flex-direction: column;
+		text-align: left;
+	}
+	.MuiDialog-paperWidthSm {
+		max-width: 400px;
+		width: 250px !important;
+		text-align: center;
+	}
+	.view-page-button{
+		background-color: rgba(0, 0, 0, 0.75);
+		// box-shadow: 0px 3px 7px 0px ; // rgba(255, 255, 255, 0.5);
+		color:  rgba(184, 217, 255, 0.877);	
+	}
+	.view-page-button:hover{
+		background-color: rgba(68, 68, 68, 0.55);
+	}
+	.card {
+		// background-color: rgba(0, 0, 0, 0.75);
+		background-color: #424242;
+		// border : 0px ;
+		// border-bottom: 2px solid;
+		// border-color: #6381B5;
+		
+		box-shadow: 0.5px 3px 0.5px 0.5px; // rgba(255, 255, 255, 0.5);
+		position: relative;
+		margin: 0 auto;
+		float: none;
+		margin-bottom: 10px;
+		img {
+			align-items: center;
+			width: 95%;
+			padding-top: 5%;
+			padding-right: 5%;
+			padding-bottom: 5%;
+			border-top-right-radius: 0;
+			border-bottom-left-radius: calc(0.25rem - 1px);
+			object-fit: cover;
+			animation-name: fade-img;
+			animation-duration: 2s;
+			-webkit-transform: scaleX(-1);
+			transform: scaleX(-1);
+		}
+	}
+	.card-body {
+		padding: 0.5em 1.2em;
+	}
+	.card-title {
+		color: white;
+		padding-top: 3%;
+		font-size: 27px;
+	}
+	.img {
+		&:hover {
+			-webkit-transform: scaleX(-1);
+			transform: scaleX(-1);
+			-webkit-transform: scaleX(-1);
+			transform: scaleX(-1);
+		}
+	}
+	.fade-img {
+		animation-name: fade-img;
+		animation-duration: 2s;
+	}
+	a {
+		color: rgb(145, 187, 235);
+		&:link {
+			text-decoration: underline;
+			text-decoration-color: rgba(184, 217, 255, 0.877);
+		}
+	}
+	.MuiCheckbox-colorSecondary.Mui-checked{
+		color : white ;
+	}
+	.MuiCheckbox-colorSecondary{
+		color: white;
+	}
+	.card-text{
+		color: rgba(245, 245, 245, 0.67);
+		font-size: 19.5px;
+	}
+	.horizontal-card {
+		position: relative;
+		display: flex;
+		margin-bottom: 1rem;
+	}
+	img {
+		width: 200px;
+		height: 200px;
+	}
+	.card-horizontal {
+		display: flex;
+		flex: 1 1 auto;
+	}
+	.MuiSvgIcon-root{
+		color : #757575 !important;
+	}
+	.inputBase {
+		// width: 63vw !important;
+		color: white ;
+	}	
+	.horizontal-card-body {
+		display: flex;
+		flex-direction: column;
+		margin-left: 1rem;
+	}
+	.horizontal-card-footer {
+		left: 0px;
+		right: 0px;
+		margin-bottom: 10px;
+		display: flex;
+		align-items: center;
+	}
+	.text-muted {
+		color: white;
+	}
+	
+}

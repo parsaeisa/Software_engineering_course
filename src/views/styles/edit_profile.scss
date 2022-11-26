@@ -1,0 +1,187 @@
+    /* .ant-image-preview-root {
+    z-index: 1400;
+} */
+.TextField {
+	margin-left: 5px !important;
+}
+.Button {
+	border-radius: 10px !important;
+	display: flex !important;
+	justify-content: flex-end !important;
+}
+.MuiTooltip-tooltip {
+	font-size: 13px;
+}
+.imageHolder {
+	text-align: center;
+}
+.ant-image-img {
+	border-radius: 75px;
+}
+.ant-image-mask {
+	border-radius: 75px;
+}
+.MuiDialog-paperWidthSm {
+	width: 1000px;
+	max-width: 1000px !important;
+}
+.MuiDialogContent-root {
+	padding-right: 70px !important;
+	padding-left: 70px !important;
+	padding-top: 20px !important;
+	padding-bottom: 20px !important;
+}
+.MuiPaper-elevation24 {
+	box-shadow: 0px 0px 0px -0px rgb(0 0 0 / 20%), 0px 0px 0px 0px rgb(0 0 0 / 14%), 0px 0px 0px 0px rgb(0 0 0 / 12%);
+}
+.ant-image-preview-root {
+	z-index: 2;
+	z-index: 1400;
+}
+.Avatar {
+    position:  relative;
+    margin-top: -115px;
+    border-radius: 100px;
+    border-style: dotted;
+}
+.camera_button {
+	text-align: center;
+	margin: 10px;
+}
+.ant-image-preview-wrap {
+	z-index: 1800;
+}
+.DialogTared {
+	opacity: 0.4;
+}
+.ant-image-preview-body {
+	z-index: 1400;
+}
+.ant-image-preview-mask {
+	z-index: 1400;
+}.wrapper {
+	margin-top: 30px;
+	position: relative;
+	display: 'flex';
+	align-items: 'center';
+}
+
+.MuiDialog-paper {
+    height: 430px;
+    width: 430px;
+}
+.paper {
+	margin-top: 50px;
+	margin-bottom: 24;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0px !important ;
+	width: 800px;
+}
+@media only screen and (max-width: 800px) {    
+
+    .paper {        
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        padding: 0px !important ;
+        width: 100%;    
+    }
+
+    .AvatarDialog {
+        height: 100%;
+        width: 100%;
+    }	
+
+    
+    .MuiDialogContent-root {
+        padding-right: 5px !important;
+        padding-left: 5px !important;
+        padding-top: 5px !important;
+        padding-bottom: 5px !important;
+    }
+
+
+}
+.day{
+	.MuiButton-containedPrimary {
+		background-color: #0f0b3e !important;
+	}
+	.MuiCircularProgress-colorPrimary{
+		color: #0f0b3e !important;
+	}
+	.MuiDialogActions-root {
+		border-top: 0.5px solid #bfbfbf;
+	}
+	.ant-collapse {
+		border-bottom: 1 px solid #bfbfbf;
+	}
+	.ant-collapse-item {
+		border: 1px solid #bfbfbf;
+		border-bottom: 0.5px solid #bfbfbf;
+	}
+	.MuiIconButton-colorPrimary{
+		color : #023047 ;
+	}
+	.closeIcon {
+		fill: #0f0b3e !important;
+	}
+	.buttonProgress {
+		color: green;
+		position: 'absolute';
+		top: '50%';
+		margin-top: -12;
+	}
+	.MuiDialogTitle-root {
+		border-bottom: 0.5px solid #bfbfbf;
+	}
+	
+}
+.night{
+	.blockedTable{
+		background-color : #424242 !important ;		
+	}
+	.Accordion{
+		background-color: #424242;
+		border-bottom: 2px solid;
+		border-color: #6381B5;
+		color : white ;
+	}
+	.MuiOutlinedInput-root{
+		color : white  !important;
+	}
+	.MuiOutlinedInput-input{
+		color : white !important;
+	}	
+	.paper {
+		background-color: #424242;
+		border: 2px solid;
+		border-color: #6381B5;
+	}
+	.MuiButton-containedPrimary {
+		background-color: #0f0b3e !important;
+	}
+	.MuiDialogActions-root {
+		border-top: 0.5px solid #bfbfbf;
+	}
+	.ant-collapse {
+		border-bottom: 1 px solid #bfbfbf;
+	}
+	.ant-collapse-item {
+		border: 1px solid #bfbfbf;
+		border-bottom: 0.5px solid #bfbfbf;
+	}
+	.closeIcon {
+		fill: #0f0b3e !important;
+	}
+	.buttonProgress {
+		color: green;
+		position: 'absolute';
+		top: '50%';
+		margin-top: -12;
+	}
+	.MuiDialogTitle-root {
+		border-bottom: 0.5px solid #bfbfbf;
+	}
+	
+}

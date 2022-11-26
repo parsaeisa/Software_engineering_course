@@ -1,0 +1,66 @@
+
+.Donat_chart_title {
+    margin-bottom: 20px !important;
+}
+
+.root {
+    display: 'flex',
+  }
+.title {
+    flex-grow: 1;
+  }
+.appBarSpacer
+  {
+    height: 60px
+  }
+.content {
+    flex-grow: 1;
+    height: 100vh;
+    overflow: auto;
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+  }
+.container {
+    padding-top : 6px;
+    padding-bottom : 6px;
+  }
+.paper {
+    padding: 16px ;
+    display : 'flex';
+    overflow: 'auto';
+    flex-direction: 'column';
+  }
+.fixedHeight {
+    height: 300px !important;
+}
+
+.fixedHeightNumber {
+  height: 50px !important;
+}
+
+.fixedHeightPaper{
+    height: 300;
+}
+
+.MuiContainer-root{
+  margin-right: 0px !important ;
+  margin-left: 0px !important;
+}
+
+.BlockedDomainsPaper {
+  padding-bottom : 10px ;
+  padding-top : 10px ;
+}
+
+.paper{
+  padding: 16px ;
+  display: flex ;
+  overflow: auto ;
+  flex-direction: column ;
+}
+
+.night {
+  .paper{
+    background-color : #424242 ;
+  }
+}

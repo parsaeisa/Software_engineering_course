@@ -1,0 +1,109 @@
+@media only screen and (max-width: 800px) {	
+	.DrawerSpacer {
+		height: 73vh;
+	}
+	.PhoneTabular{
+		display : none;
+	}
+}
+@media only screen and (max-width: 600px) {
+	.Drawer{
+		display: none;
+	}	
+	.PhoneTabular{
+		display:block !important ;
+	}
+	.MuiContainer-root {
+		display: none;
+	}
+	.DrawerSpacer {
+		height: 65vh;
+	}
+	.makeStyles-drawerPaper-9 {
+		width: 100vw;
+		object-fit: fill;
+	}
+}
+
+.MuiBox-root{
+	padding: 0px !important ;
+}
+
+.PhoneTabular{
+	display : none;
+}
+
+.day{
+	.MuiAppBar-colorPrimary{
+		background-color: #44469c !important ;
+	}
+	.appBarSpacer {
+		height: 60px;
+	}
+	.appBarOptions {
+		margin-right: 10px !important;
+	}
+	.MuiContainer-maxWidthLg {
+		max-width: 1700px !important;
+	}
+	.makeStyles-appBarShift-5 {
+		margin-left: 240px;
+	}
+	.makeStyles-drawerPaper-9 {		
+		// background: linear-gradient(180deg, #44469c, #ffffff 120%) !important;
+		background: #44469c;
+		color: white !important;
+	}
+	.DrawerSpacer {
+		height: 40vh;
+	}
+	.MuiListItemIcon-root {
+		color: white !important;
+	}
+	.Divider {
+		color: white !important;
+		margin: 5px;
+		height: 5px !important;
+	}	
+	
+}
+.night{
+	.MuiSvgIcon-root{
+		color : white !important ;
+	}
+	.MuiAppBar-colorPrimary{
+		background-color: rgba(63,81,181,1) !important ;
+	}
+	.MuiBox-root {
+		background-color: #424242;
+	}
+	.appBarSpacer {
+		height: 60px;
+	}	
+	.appBarOptions {
+		margin-right: 10px !important;
+	}
+	.MuiContainer-maxWidthLg {
+		max-width: 1700px !important;
+	}
+	.makeStyles-appBarShift-5 {
+		margin-left: 240px;
+	}
+	.makeStyles-drawerPaper-9 {		
+		// background: linear-gradient(180deg, #95bce9 0%, rgb(0, 0, 0) 105%) !important;
+		// background: linear-gradient(180deg, rgba(63,81,181,1) 0%, rgba(0,0,0,1) 100%) !important;
+		background : rgba(63,81,181,1) ;
+		color: rgb(0, 0, 0) !important;
+	}
+	.DrawerSpacer {
+		height: 40vh;
+	}
+	.MuiListItemIcon-root {
+		color: rgb(0, 0, 0) !important;
+	}
+	.Divider {
+		color: rgb(0, 0, 0) !important;
+		margin: 5px;
+		height: 5px !important;
+	}	
+}

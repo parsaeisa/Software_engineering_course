@@ -1,0 +1,52 @@
+@font-face {
+  font-family: sitesFont;
+  src: url(./Rokkitt-Medium.ttf);
+}
+
+.App-day {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  background-color: whitesmoke;
+  font-family: sitesFont;
+}
+.App-night {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  background-color: #424242;
+  font-family: sitesFont;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #ffffff;
+}
+
+::-webkit-scrollbar {
+  width: 13px;
+  background-color: #f5f5f5;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 15px;
+  height: 150px;
+  background-color: #fff;
+  background-image: -webkit-linear-gradient(
+    90deg,
+    rgb(102, 173, 255) 5%,
+    rgb(102, 173, 255) 25%,
+    transparent 100%,
+    rgb(102, 173, 255) 75%,
+    transparent
+  );
+}
+::-webkit-scrollbar-thumb:hover {
+  background-image: -webkit-linear-gradient(
+    90deg,
+    rgb(47, 118, 201) 5%,
+    rgb(47, 118, 201) 25%,
+    transparent 100%,
+    rgb(47, 118, 201) 75%,
+    transparent
+  );
+}

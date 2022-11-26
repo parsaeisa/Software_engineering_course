@@ -1,0 +1,512 @@
+
+.centered {
+  position: absolute  ;
+  top: 50%  ;
+  left: 50%  ;
+  transform: translate(-50%, -50%)  ;
+}
+
+@keyframes slide {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    transform: translate3d(120%,20%,0);
+  }
+}
+@keyframes slideback {
+  0% {
+    opacity: 1;
+    transform: translate3d(100%,10%,0);
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.mainDiv {
+  width: 60%;
+  height: 75%;
+  border-radius: 15%;
+}
+.layout {
+  margin-bottom: 20%;
+  margin-top: 20%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.signupPaper {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.maingrid {
+  height: 70%;
+}
+.day{
+  width: 100%;
+  height: 100%;
+  .backgroundDiv{
+    height: 100vh;
+    width: 100%;
+    background-image: url("./bigdatalightblur2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+
+  .photo_login {
+    box-shadow: 0px 0px 7px 0px #44469ccb;
+    position: absolute;
+    background-color: rgba(245, 245, 245, 0.484);
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+    float: left;
+    top: -8%;
+  left: -6%;
+  height: 100%;
+  border: none;
+  }
+  
+  @keyframes glowD {
+    from {
+    }
+  
+    to {
+      text-shadow: 0 0 20px #44469ccb, 
+        0 0 40px #44469ccb, 0 0 50px #44469c71,
+        0 0 60px #000000;
+    }
+  }
+.start-text1{
+  font-style: italic;
+  font-variant: normal;
+  word-spacing: 9999999px;
+  font-size: 17px;
+  color: black;
+  animation: glowD 1s ease-in-out infinite alternate;
+  position: absolute;
+  left: -35%;
+  top: 23%;
+}
+.start-text2{
+  font-style: italic;
+  font-variant: normal;
+  word-spacing: 9999999px;
+  font-size: 17px;
+  color: black;
+  animation: glowD 1s ease-in-out infinite alternate;
+  position: absolute;
+  left: -15%;
+  top: 45%;
+}
+.start-text3{
+  font-style: italic;
+  font-variant: normal;
+  word-spacing: 9999999px;
+  font-size: 17px;
+  color: black;
+  animation: glowD 1s ease-in-out infinite alternate;
+  position: absolute;
+  left: 9%;
+  top: 31%;
+}
+.start-text4{
+  font-style: italic;
+  font-variant: normal;
+  word-spacing: 9999999px;
+  font-size: 17px;
+  color: black;
+  animation: glowD 1s ease-in-out infinite alternate;
+  position: absolute;
+  left: 29%;
+  top: 43%;
+}
+
+  .text_header {
+    font-style: italic;
+    font-variant: normal;
+    position: relative;
+    top: 7%;
+    font-size: 40px;
+    color: rgba(0, 0, 0, 0.76);
+    // animation: glowD 1s ease-in-out infinite alternate;
+  }
+  
+  .buttonMain {
+    color: black  ;
+    position: relative;
+    top: 60%;
+    text-align: center;
+    border-color: black  ;
+    border-radius: 0  ;
+    font-size: 13px  ;
+  }
+  .buttonMain:hover {
+    background-color: rgba(186, 187, 179, 0.39)  ;
+  }
+  .loginform {
+    box-shadow: 0px 0px 7px 0px #44469ccb;
+    background-color: rgba(245, 245, 245, 0.484);
+    width: 50%;
+    float: right;
+    position: absolute;
+    left: 55%;
+    top: 12%;
+    height: 100%;
+  border: none;
+  }
+  .loginform.loginhide {
+    visibility: hidden;
+  }
+  
+
+  .signupform {
+    box-shadow: 0px 0px 7px 0px #44469ccb;
+    background-color: rgba(245, 245, 245, 0.484);
+    width: 50%;
+    float: left;
+    top: -8%;
+    left: -6%;
+    height: 100%;
+    position: absolute;
+    visibility: hidden  ;
+    border: none;
+  }
+ 
+  .signupform.signupshow {
+    visibility: visible ;
+    animation: slideback 0.8s forwards;
+  }
+  
+  .photo_login.change {
+    animation: slide 0.8s forwards;
+  }
+  .photo_login.unchange {
+    animation: slideback 0.8s forwards;
+  }
+  
+  .signupforms {
+    width: 103%  ;
+    background-color: rgba(245, 245, 245, 0.356);
+    font-size: 17px;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 0;
+  }
+  
+  .loginforms {
+    background-color: rgba(245, 245, 245, 0.356);
+    font-size: 17px;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 0;
+  }
+  .form-control.is-invalid,
+  .was-validated .form-control:invalid {
+    border-color: rgba(186, 187, 179, 0.95);
+    border-radius: 0%;
+    border-style: dotted;
+    border-width: 2px;
+    background-image: url("error2.png");
+  
+    
+  }
+  .invalid-feedback {
+    color: rgb(139, 139, 136);
+  }
+  
+  .loginB {
+    width: 100%;
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    background-color: rgba(245, 245, 245, 0.356);
+    font-size: 17px;
+    border-color: black;
+    border-width: 1px;
+    color: black;
+  }
+  .loginB:hover {
+    background-color: rgba(186, 187, 179, 0.39);
+  }
+  .signupB {
+    width: 102%;
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    background-color: rgba(245, 245, 245, 0.356);
+    font-size: 17px;
+    border-color: black;
+    border-width: 1px;
+    color: black;
+  }
+  .signupB:hover {
+    background-color: rgba(186, 187, 179, 0.39);
+  }
+  .forgotpassword {
+    margin-top: 15px;
+    color: black;
+    cursor: pointer;
+    text-underline-position: below;
+    text-decoration-thickness: 1px;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: black  ;
+  }
+  .forgotpassword:hover {
+    transition: all 0.25s ease-in;
+    color: rgb(139, 139, 136);
+    text-decoration-color: rgb(139, 139, 136)  ;
+  }
+  body > div.MuiDialog-root > div.MuiDialog-container.MuiDialog-scrollPaper > div{
+  
+    width: 50%;
+    
+    position: absolute  ;
+    top: 50%  ;
+    left: 50%  ;
+    transform: translate(-53%, -60%)  ;
+  }
+  .darkmode-icon{
+    cursor: pointer;
+    position: sticky;
+    top: 5%;
+    left: 95%;
+    height: 40px ;
+    width: 40px ;
+  }
+  .darkmode{
+    
+    height: 40px ;
+    width: 40px ;
+  }
+}
+.night{
+  width: 100%;
+  height: 100%;
+  .backgroundDiv{
+    height: 100vh;
+    width: 100%;
+    background-image: url("./bigdatadarkblur2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+.photo_login {
+  box-shadow: 0px 0px 7px 0px rgba(255, 255, 255, 0.5);
+  position: absolute;
+  background-color:rgba(0, 0, 0, 0.473) ;
+  background-position: center;
+  background-size: cover;
+  width: 50%;
+  float: left;
+  top: -8%;
+  left: -6%;
+  height: 100%;
+}
+
+@keyframes glowN {
+  from {
+  }
+
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #a39de0, 0 0 40px #5841be,
+       0 0 70px #684dff, 0 0 80px #ffffff;
+  }
+}
+.text_header {
+  font-style: italic;
+  font-variant: normal;
+  position: relative;
+  top: 7%;
+  font-size: 40px;
+  color: #a0a0a0;
+  // animation: glowN 1s ease-in-out infinite alternate;
+}
+
+.start-text1{
+  font-style: italic;
+  font-variant: normal;
+  word-spacing: 9999999px;
+  font-size: 17px;
+  color: #a0a0a0;
+  animation: glowN 1s ease-in-out infinite alternate;
+  position: absolute;
+  left: -35%;
+  top: 23%;
+}
+.start-text2{
+  font-style: italic;
+  font-variant: normal;
+  word-spacing: 9999999px;
+  font-size: 17px;
+  color: #a0a0a0;
+  animation: glowN 1s ease-in-out infinite alternate;
+  position: absolute;
+  left: -15%;
+  top: 45%;
+}
+.start-text3{
+  font-style: italic;
+  font-variant: normal;
+  word-spacing: 9999999px;
+  font-size: 17px;
+  color: #a0a0a0;
+  animation: glowN 1s ease-in-out infinite alternate;
+  position: absolute;
+  left: 9%;
+  top: 31%;
+}
+.start-text4{
+  font-style: italic;
+  font-variant: normal;
+  word-spacing: 9999999px;
+  font-size: 17px;
+  color: #a0a0a0;
+  animation: glowN 1s ease-in-out infinite alternate;
+  position: absolute;
+  left: 29%;
+  top: 43%;
+}
+.buttonMain {
+  color: #c0c0c0  ;
+  position: relative;
+  top: 60%;
+  text-align: center;
+  border-color: rgba(245, 245, 245, 0.450)  ;
+  border-radius: 0  ;
+  font-size: 13px  ;
+}
+.buttonMain:hover{
+  background-color: #c0c0c06b  ;
+}
+.loginform {
+  box-shadow: 0px 0px 7px 0px rgba(255, 255, 255, 0.5);
+  background-color:rgba(0, 0, 0, 0.473) ;
+  width: 50%;
+  float: right;
+  position: absolute;
+  left: 55%;
+  top: 12%;
+  height: 100%;
+}
+.loginform.loginhide {
+  visibility: hidden;
+}
+
+.signupform {
+  box-shadow: 0px 0px 7px 0px rgba(255, 255, 255, 0.5);
+  background-color:rgba(0, 0, 0, 0.473) ;
+  width: 50%;
+  float: left; 
+   top: -8%;
+  left: -6%;
+  height: 100%;
+  position: absolute;
+  visibility: hidden  ;
+}
+.signupform.signupshow {
+  visibility: visible  ;
+  animation: slideback 0.8s forwards;
+}
+
+.photo_login.change {
+  animation: slide 0.8s forwards;
+}
+.photo_login.unchange {
+  animation: slideback 0.8s forwards;
+}
+
+.signupforms {
+  width: 103%  ;
+  background-color:rgba(0, 0, 0, 0.473) ;
+  opacity: 1 !important;
+  font-size: 17px;
+  border-color: rgba(245, 245, 245, 0.450);
+  border-width: 1px;
+  border-radius: 0;
+}
+
+.loginforms {
+  background-color:rgba(0, 0, 0, 0.473) ;
+  font-size: 17px;
+  border-color: rgba(245, 245, 245, 0.450);
+  border-width: 1px;
+  border-radius: 0;
+}
+.form-control.is-invalid,
+  .was-validated .form-control:invalid {
+    border-color: rgba(186, 187, 179, 0.95);
+    border-radius: 0%;
+    border-style: dotted;
+    border-width: 2px;
+    background-image: url("error1.png");
+  
+    
+  }
+  
+
+.invalid-feedback {
+  color: #c0c0c0;
+}
+
+.loginB {
+  width: 100%;
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  background-color:rgba(0, 0, 0, 0.473) ;
+  font-size: 17px;
+  border-color: rgba(245, 245, 245, 0.450);
+  color: grey;
+   border-width: 1px;
+}
+.signupB {
+  width: 102%;
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  background-color:rgba(0, 0, 0, 0.473) ;
+  font-size: 17px;
+  border-color: rgba(245, 245, 245, 0.450);
+  color: grey;
+  border-width: 1px;
+}
+.loginB:hover{
+  background-color: #c0c0c03d;
+}
+.signupB:hover{
+  background-color: #c0c0c03d;
+}
+.forgotpassword {
+  margin-top: 15px;
+  color: rgba(245, 245, 245, 0.450);
+  cursor: pointer;
+  text-underline-position: below;
+  text-decoration-thickness: 2px;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-color: rgba(245, 245, 245, 0.450)  ;
+}
+.forgotpassword:hover {
+  transition: all 0.25s ease-in;
+  color: whitesmoke;
+  text-decoration-color: whitesmoke  ;
+}
+  body > div.MuiDialog-root > div.MuiDialog-container.MuiDialog-scrollPaper > div{
+  
+    width: 50%;
+    
+    position: absolute  ;
+    top: 50%  ;
+    left: 50%  ;
+    transform: translate(-53%, -60%)  ;
+  }
+  .darkmode-icon{
+    cursor: pointer;
+    position: sticky;
+    top: 5%;
+    left: 95%;
+    height: 40px ;
+    width: 40px ;
+  }
+  .darkmode{
+    height: 40px ;
+    width: 40px ;
+  }
+}

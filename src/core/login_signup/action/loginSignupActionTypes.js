@@ -1,0 +1,8 @@
+export const ActionTypes = {
+    SET_CHANGE: "SET_CHANGE",
+    SET_ALERTM: "SET_ALERTM",
+    SET_LOGIN_STATE:"SET_LOGIN_STATE",
+    SET_ALERTS:"SET_ALERTS",
+};
+
+  
